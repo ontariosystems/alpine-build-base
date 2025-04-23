@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --update --no-cache git openssh make curl bash zip libstdc++ icu
+RUN apk add --update --no-cache git openssh make curl bash zip libstdc++ icu gcompat
 
 VOLUME /git
 WORKDIR /git
